@@ -23,6 +23,9 @@ jobs:
       - name: Exclude example projects
         run: dotnet sln remove Examples/**
         
+      - name: Setup nuget feed
+        run: |
+          dotnet nuget add source --username soccerjoshj07 --password ${{ secrets.GITHUB_TOKEN }} --name github https://nuget.pkg.github.com/soccerjoshj07/index.json
       - name: Install dependencies
         run: dotnet restore
       
