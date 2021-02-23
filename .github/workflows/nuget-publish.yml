@@ -1,6 +1,9 @@
 name: NuGet Publish
 
 on:
+  push:
+    branches:
+      - master
   workflow_dispatch:
   # all inputs default to push all - if package exists already, it'll be skipped anyway
 
