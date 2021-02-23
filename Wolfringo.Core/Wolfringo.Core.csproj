@@ -6,7 +6,7 @@
     <Version>1.1.4</Version>
     <Authors>TehGM</Authors>
     <Product>Wolfringo</Product>
-    <RepositoryUrl>https://github.com/soccerjoshj07/Wolfringo</RepositoryUrl>
+    <RepositoryUrl>https://github.com/soccerjoshj07/Wolfringo-github-packages</RepositoryUrl>
     <Copyright>Copyright (c) 2020 TehGM</Copyright>
     <Description>A .NET Library for WOLF (previously Palringo)</Description>
     <PackageProjectUrl>https://wolfringo.tehgm.net</PackageProjectUrl>

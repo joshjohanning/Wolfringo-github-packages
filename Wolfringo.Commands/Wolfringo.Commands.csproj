@@ -11,7 +11,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://wolfringo.tehgm.net</PackageProjectUrl>
     <PackageIcon>wolfringo_logo.png</PackageIcon>
-    <RepositoryUrl>https://github.com/TehGM/Wolfringo</RepositoryUrl>
+    <RepositoryUrl>https://github.com/soccerjoshj07/Wolfringo-github-packages</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>wolf palringo wolfringo pal bot client commands</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
