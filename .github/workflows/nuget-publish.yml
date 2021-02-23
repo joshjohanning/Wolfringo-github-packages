@@ -33,7 +33,7 @@ jobs:
         run: |
           mkdir __out
           dotnet pack Wolfringo.Core -c Release -o __out --no-restore
-          dotnet nuget push "./__out/*.nupkg" --skip-duplicate --no-symbols true --api-key ${{ secrets.GITHUB_TOKEN }} --source "github"
+          dotnet nuget push "./__out/*.nupkg" --skip-duplicate --no-symbols true --source "github"
 
       # - uses: tanaka-takayoshi/nuget-publish-to-github-packages-action@v2.1
       #   with:
