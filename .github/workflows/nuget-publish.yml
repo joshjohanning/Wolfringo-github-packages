@@ -15,9 +15,6 @@ jobs:
       # Prepare environment
       - name: Checkout
         uses: actions/checkout@v2
-
-      - name: Exclude example projects
-        run: dotnet sln remove Examples/**
         
       - name: Setup nuget feed
         run: |
