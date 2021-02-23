@@ -19,6 +19,7 @@ jobs:
       #     dotnet-version: 3.1.101
       - name: Exclude example projects
         run: dotnet sln remove Examples/**
+        
       - name: Install dependencies
         run: dotnet restore
       
@@ -26,14 +27,14 @@ jobs:
         run: |
           mkdir __out
           dotnet pack Wolfringo.Core -c Release -o __out --no-restore
-          # dotnet nuget push "./__out/*.nupkg" --skip-duplicate --no-symbols true --api-key ${{secrets.NUGET_TOKEN}}
+          dotnet nuget push "./__out/*.nupkg" --skip-duplicate --no-symbols true --api-key ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: tanaka-takayoshi/nuget-publish-to-github-packages-action@v2.1
-        with:
-          nupkg-path:  './__out/*.nupkg'
-          repo-owner:  'soccerjoshj07'
-          gh-user:  'soccerjoshj07'
-          token:  ${{ secrets.GITHUB_TOKEN }}
+      # - uses: tanaka-takayoshi/nuget-publish-to-github-packages-action@v2.1
+      #   with:
+      #     nupkg-path:  './__out/*.nupkg'
+      #     repo-owner:  'soccerjoshj07'
+      #     gh-user:  'soccerjoshj07'
+      #     token:  ${{ secrets.GITHUB_TOKEN }}
 
       # # Publish each package
       # - name: Publish Wolfringo.Core
