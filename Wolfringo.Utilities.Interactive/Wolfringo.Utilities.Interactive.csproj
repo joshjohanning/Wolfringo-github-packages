@@ -7,7 +7,7 @@
     <Version>1.1.2</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://wolfringo.tehgm.net</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/soccerjoshj07/Wolfringo-github-packages</RepositoryUrl>
+    <RepositoryUrl>https://github.com/joshjohanning/Wolfringo-github-packages</RepositoryUrl>
     <Description>Interactive utilities for Wolfringo library.</Description>
     <Copyright>Copyright (c) 2020 TehGM</Copyright>
     <PackageTags>wolf palringo wolfringo pal bot client</PackageTags>

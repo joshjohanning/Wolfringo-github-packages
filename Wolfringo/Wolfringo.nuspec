@@ -10,7 +10,7 @@
     <tags>wolf palringo wolfringo pal bot client</tags>
     <projectUrl>https://wolfringo.tehgm.net</projectUrl>
     <icon>wolfringo_logo.png</icon>
-    <repository type="git" url="https://github.com/soccerjoshj07/Wolfringo-github-packages" />
+    <repository type="git" url="https://github.com/joshjohanning/Wolfringo-github-packages" />
     <license type="expression">MIT</license>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <copyright>Copyright (c) 2020 TehGM</copyright>
